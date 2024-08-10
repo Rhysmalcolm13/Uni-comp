@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -153,7 +153,7 @@ const ComplaintForm = () => {
                 />
               </FormControl>
               <FormDescription>
-                We'll only use this email to contact you regarding your complaint.
+                We&apos;ll only use this email to contact you regarding your complaint.
               </FormDescription>
               <FormMessage />
             </FormItem>
